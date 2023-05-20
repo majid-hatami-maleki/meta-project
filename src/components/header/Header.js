@@ -18,7 +18,7 @@ function Header() {
                 ))}
             </ul>
             <ul className='internal-links-menu'>
-                <li><a href="#">projects</a></li>
+                <li><a href="#projects">projects</a></li>
                 <li><a href="#">contact me</a></li>
             </ul>
         </div>

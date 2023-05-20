@@ -37,7 +37,7 @@ function Main() {
                 </div>
                 <h1>a frontend developer specialist in react</h1>
             </div>
-            <div className="main-features">
+            <div className="main-features" id='projects'>
                 <h3>featured projects</h3>
                 <div className='FeatureBox-container'>
                     {features.map((feature) => (
