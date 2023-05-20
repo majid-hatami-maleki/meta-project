@@ -1,0 +1,41 @@
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*display flex*/
+}
+.main-portfolio {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*display flex*/
+  height: 600px;
+}
+.main-portfolio h1 {
+  width: 400px;
+  text-transform: capitalize;
+  color: white;
+  text-align: center;
+}
+.main-portfolio-picture {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*display flex*/
+}
+.main-portfolio-picture h3 {
+  text-transform: capitalize;
+  color: white;
+}
+.portfolio-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: white;
+}

@@ -1,0 +1,17 @@
+.app-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /*display flex*/
+}
+.wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*display flex*/
+  background-color: rgb(27, 48, 75);
+}
