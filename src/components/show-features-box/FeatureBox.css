@@ -1,0 +1,50 @@
+.FeatureBox {
+  width: 45%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*display flex*/
+  gap: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.FeatureBox-picture {
+  width: 100%;
+  overflow: hidden;
+}
+.FeatureBox-picture img {
+  width: 100%;
+}
+.FeatureBox-texts {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  /*display flex*/
+  gap: 20px;
+}
+.FeatureBox-texts h2 {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+.FeatureBox-texts p {
+  color: rgb(84, 100, 110);
+  font-size: 0.9rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.FeatureBox-texts button {
+  background-color: transparent;
+  border: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /*display flex*/
+  gap: 20px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}

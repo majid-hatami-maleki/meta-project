@@ -9,7 +9,6 @@ function App() {
     return (
         <div className='app-container'>
             <div className="wrapper">
-
                 <Header />
                 <Main />
                 <Footer />

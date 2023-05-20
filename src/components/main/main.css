@@ -13,13 +13,20 @@
   align-items: center;
   flex-direction: column;
   /*display flex*/
-  height: 600px;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*display flex*/
+  gap: 30px;
 }
 .main-portfolio h1 {
   width: 400px;
   text-transform: capitalize;
   color: white;
   text-align: center;
+  font-size: 1.8rem;
 }
 .main-portfolio-picture {
   width: 100%;
@@ -28,6 +35,7 @@
   align-items: center;
   flex-direction: column;
   /*display flex*/
+  gap: 10px;
 }
 .main-portfolio-picture h3 {
   text-transform: capitalize;
@@ -38,4 +46,33 @@
   height: 200px;
   border-radius: 50%;
   background-color: white;
+  background-image: url(../../../public/profile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-features {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  /*display flex*/
+  padding: 20px;
+  gap: 20px;
+  background-color: rgb(2, 94, 2);
+}
+.main-features h3 {
+  color: white;
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+.FeatureBox-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /*display flex*/
+  flex-wrap: wrap;
+  gap: 60px;
 }

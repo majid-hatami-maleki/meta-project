@@ -15,7 +15,18 @@
   align-items: center;
   flex-direction: row;
   /*display flex*/
-  border: 1px solid white;
+  gap: 15px;
 }
 .internal-links-menu {
+}
+.external-links-menu li a,
+.internal-links-menu li a {
+  color: white;
+  text-transform: capitalize;
+}
+.external-links-menu li a {
+  font-size: 1rem;
+}
+.internal-links-menu li a {
+  font-size: 0.7rem;
 }
