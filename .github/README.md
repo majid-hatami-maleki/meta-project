@@ -6,7 +6,7 @@
 
 ## Installation
 To install this project, follow these steps:
-1. Clone the repository: git clone https://github.com/majid-hatami-maleki/readme-test.git
+1. Clone the repository: git clone https://github.com/majid-hatami-maleki/meta-project.git
 2. Change to the project directory: cd to directory
 3. Install dependencies: npm install or npm i
 4. run the project: npm start
@@ -30,4 +30,4 @@ To install this project, follow these steps:
 [gmail-url]: mailto:majidhatamimalekii@gmail.com
 [coursera-url]: https://www.coursera.org/
 [meta-certificate-url]: https://www.coursera.org/account/accomplishments/verify/2KZQWFH8SVA4
-
+[meta-certificate-url]: https://www.coursera.org/account/accomplishments/verify/2KZQWFH8SVA4
